@@ -35,7 +35,7 @@ import Vapor
 public func routes(_ router: Router) throws {
   // Basic "Hello, world!" example
   router.get("hello") { req in
-    return "Hello, world!2"
+    return "Hello, world!3"
   }
 
   router.post("api", "acronyms") { req -> Future<Acronym> in
